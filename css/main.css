@@ -1,0 +1,247 @@
+/*********************************************************************************
+GENERAL
+*********************************************************************************/
+
+a {
+	text-decoration: none;
+	color: #551fff;
+	
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	background-color: #f9f9f9;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/***********FONTS*************************/
+
+h1, h2 {
+	font-family: 'Yantramanav', sans-serif;
+}
+
+h2 {
+	font-size: 1.3em;
+	color: #551fff;
+	letter-spacing: 0;
+	font-weight: 700;
+}
+
+
+h3 {
+	font-family: 'Yantramanav', sans-serif;
+	font-weight: 700;
+	font-size: 1.35em;
+	color: #5e6182;
+	margin: 5px 0 -10px 0;
+}
+
+
+h4 {
+	font-family: 'Yantramanav', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 18px;
+	color: #9498a8;
+	font-weight: 700;
+	font-size: .55em;
+}
+
+h5 {
+	font-family: 'Yantramanav', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 18px;
+	color: #551fff;
+	font-weight: 700;
+	font-size: .55em;
+	margin: 0 0 15px;
+}
+
+h6 {
+	font-family: 'Yantramanav', sans-serif;
+	line-height: 18px;
+	color: #dcdde2;
+	font-weight: 100;
+	font-size: .55em;
+	padding: 15px 0;
+}
+
+body {
+	font-family: "Yantramanav", sans-serif;
+	font-size: 1.3125em;
+	color: #5e6182;
+	font-weight: 400;
+	line-height: 31px;
+}
+
+
+
+
+
+/*********************************************************************************
+HEADER
+*********************************************************************************/
+
+header {
+	float: left;
+	margin: 20px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	display: block;
+	width: 91px;
+	height: 64px;
+	margin: 15px auto 5px;
+	text-align: center;
+}
+
+
+/*********************************************************************************
+NAVIGATION
+*********************************************************************************/
+nav {
+	text-align:center;
+	padding: 0;
+	margin: 0;
+}
+
+
+nav ul {
+	margin: 0 0 30px;
+  padding: 0;
+}
+
+
+nav li {
+	margin: 0 10px;
+	display: inline-block;
+}
+
+
+
+/*********************************************************************************
+PORTFOLIO
+*********************************************************************************/
+
+#gallery li {
+	display: block;
+	float: left;
+	width: 100%;
+  margin: 30px auto;
+}
+
+#gallery li p {
+	padding: 0 5%;
+	margin: 0 auto;
+}
+
+
+
+
+/*********************************************************************************
+FOOTER
+*********************************************************************************/
+
+footer {
+	clear: both;
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+footer a {
+	display: block;
+}
+
+
+.behance ul {
+	margin: 0 0 30px;
+  padding: 0;
+}
+
+
+.behance li {
+	display: block;
+	background: no-repeat center;
+	margin: 0 auto;
+}
+
+
+.behance li {
+	background-image: url('../images/arrow.png');
+}
+
+
+/***********HOVER STYLES*************************/
+
+nav a:hover {
+	color: #b3b8c9;
+}
+
+
+footer a:hover {
+	color: #b3b8c9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
