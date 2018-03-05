@@ -24,6 +24,13 @@ img {
 }
 
 
+#menu-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+
 
 /***********FONTS*************************/
 
@@ -96,16 +103,27 @@ HEADER
 
 header {
 	float: left;
-	margin: 20px 0 0 0;
+	display: block;
+	max-width: 1200px;
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
+
+
 
 #logo {
 	display: block;
 	width: 91px;
-	height: 64px;
 	margin: 15px auto 5px;
 	text-align: center;
+}
+
+.rc-logo_invert {
+	width: 91px;
+	visibility: hidden;
+	position: absolute;
+	transform: translate(-50%, -115%);
 }
 
 
@@ -121,7 +139,7 @@ nav {
 
 nav ul {
 	margin: 0 0 30px;
-  padding: 0;
+	padding: 0;
 }
 
 
@@ -140,7 +158,7 @@ PORTFOLIO
 	display: block;
 	float: left;
 	width: 100%;
-  margin: 30px auto;
+	margin: 30px auto;
 }
 
 #gallery li p {
@@ -156,92 +174,73 @@ FOOTER
 *********************************************************************************/
 
 footer {
+	display: block;
 	clear: both;
+	padding: 40px 0 0;
+	margin: 0 auto -30px;
 	text-align: center;
-	padding-top: 40px;
 }
 
 
-footer a {
-	display: block;
-}
-
-
-.behance ul {
-	margin: 0 0 30px;
-  padding: 0;
-}
-
-
-.behance li {
-	display: block;
-	background: no-repeat center;
+.behance {
+	display: table;
 	margin: 0 auto;
 }
 
 
-.behance li {
-	background-image: url('../images/arrow.png');
+.arrow {
+	visibility: hidden;
+	position: absolute;
+	transform: translate(-50%, -125%);
 }
 
 
-/***********HOVER STYLES*************************/
+.linkedin {
+	display: table;
+	margin: 0 auto;
+}
+
+
+
+
+/*********************************************************************************
+HOVER STYLES
+*********************************************************************************/
 
 nav a:hover {
 	color: #b3b8c9;
 }
 
 
-footer a:hover {
-	color: #b3b8c9;
+/***********FOOTER LINKS*************************/
+
+.behance:hover .link {
+	visibility: hidden;
+}
+
+.behance:hover .arrow {
+	visibility: visible;
+}
+
+
+.linkedin:hover .link {
+	visibility: hidden;
+}
+
+.linkedin:hover .arrow {
+	visibility: visible;
 }
 
 
 
+/***********HEADER*************************/
 
 
+#logo:hover .rc-logo {
+	visibility: hidden;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#logo:hover .rc-logo_invert {
+	visibility: visible;
+}
 
