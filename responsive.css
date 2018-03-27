@@ -1,0 +1,234 @@
+@media screen and (min-width: 600px) {
+
+/***********NAVIGATION*************************/
+
+header {
+	position: fixed;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0px auto;
+	padding: 20px 0 0;
+}
+
+#logo {
+	float: left;
+	margin: 5px auto 0;
+	display: block;
+}
+
+#logo:hover .rc-logo {
+	visibility: hidden;
+}
+
+#logo:hover .rc-logo_invert {
+	visibility: visible;
+}
+
+
+nav {
+	float: right;
+}
+
+.project-container .project-description h4 {
+	padding-top: 50px;
+}
+
+
+
+/***********PORTFOLIO*************************/
+
+#gallery {
+	margin: 100px auto;
+}
+
+/*#gallery li {
+	width: 33.3333%;
+}
+*/
+
+.project-container {
+	display: block;
+	width: 100%;
+}
+
+.project-container .project-description {
+	display: block;
+	width: 38%;
+	float: left;
+	margin-top: 50px;
+}
+
+.project-container .project-thumb {
+	width: 60%;
+	float: right;
+}
+
+
+
+
+
+/***********PAGE: ABOUT*************************/
+
+#about-wrapper {
+	padding: 150px 0 0;
+}
+
+
+/*********************************************************************************
+PAGE: CONTACT
+*********************************************************************************/
+
+#contact-details {
+	display: block;
+	max-width: 300px;
+	margin: 120px auto 0;
+}
+
+
+
+
+/***********PAGE: PRESENTATION*************************/
+
+#presentation-cover {
+	margin: 100px auto 70px;
+}
+
+#presentation-title {
+	float: left;
+	width: 40%;
+}
+
+#presentation-description {
+	float: right;
+	padding: 10px 0 0;
+	margin: 0 0 70px;
+	width: 58%;
+}
+
+#presentation-title h4 {
+	margin: 18px 0;
+}
+
+#previous-next {
+	position: fixed;
+	top: 94%;
+	width: 90%;
+	margin: 0;
+	padding: 0;
+}
+
+
+#presentation-images-logos img {
+	clear: both;
+	display: block;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/***********PAGE:PRESENTATION*************************/
+
+.previous:hover .link {
+	visibility: hidden;
+}
+
+.previous:hover .arrow {
+	visibility: visible;
+}
+
+
+.next:hover .link {
+	visibility: hidden;
+}
+
+.next:hover .arrow {
+	visibility: visible;
+}
+
+/***********FOOTER*************************/
+
+
+footer {
+	position: absolute;
+	bottom: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+	clear: both;
+	width: 100%;
+	height: 60px;
+}
+
+
+.behance:hover .link {
+	visibility: hidden;
+}
+
+.behance:hover .arrow {
+	visibility: visible;
+}
+
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+
+
+header {
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+.project-container .project-description h4 {
+	padding-top: 50px;
+}
+
+.project-container .project-description {
+	margin-top: 100px;
+}
+
+
+/***********PORTFOLIO THUMBS HOVER*************************/
+
+
+.project-container:hover .project-description h4 {
+	visibility: hidden;
+}
+
+.project-container:hover .big-arrow {
+	visibility: visible;
+
+} 
+
+
+/***********PAGE: ABOUT*************************/
+
+#about-wrapper {
+	padding: 120px 0 0;
+}
+
+
+/*********************************************************************************
+PAGE: CONTACT
+*********************************************************************************/
+
+#contact-details {
+	display: block;
+	max-width: 300px;
+	margin: 150px auto 0;
+}
+
+
+}
+
+
+
