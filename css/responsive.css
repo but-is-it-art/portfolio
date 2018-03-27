@@ -4,6 +4,7 @@
 
 header {
 	position: fixed;
+	top: 5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: 0px auto;
@@ -16,6 +17,15 @@ header {
 	display: block;
 }
 
+#logo:hover .rc-logo {
+	visibility: hidden;
+}
+
+#logo:hover .rc-logo_invert {
+	visibility: visible;
+}
+
+
 nav {
 	float: right;
 }
@@ -23,6 +33,8 @@ nav {
 #project-container .project-description h4 {
 	padding-top: 50px;
 }
+
+
 
 /***********PORTFOLIO*************************/
 
@@ -61,6 +73,77 @@ nav {
 }
 
 
+/*********************************************************************************
+PAGE: CONTACT
+*********************************************************************************/
+
+#contact-details {
+	display: block;
+	max-width: 300px;
+	margin: 120px auto 0;
+}
+
+
+
+
+/***********PAGE: PRESENTATION*************************/
+
+#presentation-cover {
+	margin: 100px auto 70px;
+}
+
+#presentation-title {
+	float: left;
+	width: 40%;
+}
+
+#presentation-description {
+	float: right;
+	padding: 10px 0 0;
+	margin: 0 0 70px;
+	width: 58%;
+}
+
+#presentation-title h4 {
+	margin: 18px 0;
+}
+
+#previous-next {
+	position: fixed;
+	top: 94%;
+	width: 90%;
+	margin: 0;
+	padding: 0;
+}
+
+
+#presentation-images-logos img {
+	clear: both;
+	display: block;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/***********PAGE:PRESENTATION*************************/
+
+.previous:hover .link {
+	visibility: hidden;
+}
+
+.previous:hover .arrow {
+	visibility: visible;
+}
+
+
+.next:hover .link {
+	visibility: hidden;
+}
+
+.next:hover .arrow {
+	visibility: visible;
+}
 
 /***********FOOTER*************************/
 
@@ -74,6 +157,16 @@ footer {
 	width: 100%;
 	height: 60px;
 }
+
+
+.behance:hover .link {
+	visibility: hidden;
+}
+
+.behance:hover .arrow {
+	visibility: visible;
+}
+
 
 
 }
@@ -118,14 +211,22 @@ header {
 /***********PAGE: ABOUT*************************/
 
 #about-wrapper {
-	padding: 200px 0 0;
+	padding: 120px 0 0;
 }
 
 
+/*********************************************************************************
+PAGE: CONTACT
+*********************************************************************************/
+
+#contact-details {
+	display: block;
+	max-width: 300px;
+	margin: 150px auto 0;
+}
 
 
-
-
+}
 
 
 
