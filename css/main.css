@@ -5,7 +5,10 @@ GENERAL
 a {
 	text-decoration: none;
 	color: #551fff;
-	
+}
+
+nav a {
+	color: #b3b8c9;
 }
 
 li {
@@ -44,22 +47,30 @@ footer {
 
 /***********FONTS*************************/
 
-h1, h2 {
+h1 {
 	font-family: 'Yantramanav', sans-serif;
+	font-size: 5em;
+	color: #551fff;
+	letter-spacing: 0;
+	font-weight: 700;
+	line-height: 1em;
 }
 
 h2 {
+	font-family: 'Yantramanav', sans-serif;
 	font-size: 1.3em;
 	color: #551fff;
 	letter-spacing: 0;
 	font-weight: 700;
+	line-height: 33px;
 }
 
 
 h3 {
 	font-family: 'Yantramanav', sans-serif;
 	font-weight: 700;
-	font-size: 1.35em;
+	font-size: 1.5em;
+	line-height: 40px;
 	color: #5e6182;
 	margin: 5px 0 -10px 0;
 }
@@ -70,7 +81,7 @@ h4 {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	line-height: 18px;
-	color: #9498a8;
+	color: #b3b8c9;
 	font-weight: 700;
 	font-size: .55em;
 }
@@ -93,14 +104,15 @@ h6 {
 	font-weight: 100;
 	font-size: .55em;
 	padding: 15px 0;
+	letter-spacing: 0;
 }
 
 body {
 	font-family: "Yantramanav", sans-serif;
-	font-size: 1.3125em;
+	font-size: 1.3em;
 	color: #5e6182;
 	font-weight: 400;
-	line-height: 31px;
+	line-height: 29px;
 }
 
 
@@ -124,13 +136,13 @@ header {
 
 #logo {
 	display: block;
-	width: 91px;
+	width: 86px;
 	margin: 15px auto 5px;
 	text-align: center;
 }
 
 .rc-logo_invert {
-	width: 91px;
+	width: 86px;
 	visibility: hidden;
 	position: absolute;
 	transform: translate(-50%, -115%);
@@ -159,13 +171,19 @@ nav li {
 }
 
 nav .selected {
-	color: #b3b8c9;
+	color: #551fff;
 }
 
 /*********************************************************************************
 PORTFOLIO
 *********************************************************************************/
 
+#hero {
+	display: block;
+	max-width: 600px;
+	height: 100%;
+	margin: 20% auto;
+}
 
 
 #gallery li {
@@ -180,7 +198,7 @@ PORTFOLIO
 	margin: 0 auto;
 }
 
-#project-container .big-arrow {
+.project-container .big-arrow {
 	visibility: hidden;
 	display: block;
 	float: left;
@@ -193,9 +211,140 @@ PAGE: ABOUT
 *********************************************************************************/
 
 #about-wrapper {
-	max-width: 600px;
+	display: block;
+	max-width: 650px;
 	max-height: 800px;
 	margin: 0 auto;
+}
+
+
+/*********************************************************************************
+PAGE: CONTACT
+*********************************************************************************/
+
+#contact-details {
+	display: block;
+	max-width: 400px;
+	margin: 150px auto 0;
+}
+
+
+/*********************************************************************************
+PAGE: PRESENTATION
+*********************************************************************************/
+#presentation-details {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+
+#presentation-title {
+	margin: 0 auto 20px;
+	padding: 0;
+	display: block;
+}
+
+#presentation-cover {
+	display: block;
+	margin: 0 auto 30px;
+	padding: 0
+}
+
+#presentation-description {
+	padding: 0;
+	margin: 0 0 50px;
+}
+
+#presentation-images img {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+#presentation-title h4 {
+	margin: 18px 0;
+}
+
+
+#simple-footer {
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#previous-next {
+	display: block;
+	max-width: 1200px;
+	margin: 0;
+}
+
+#presentation-images img {
+	clear: both;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+#presentation-images-logos img {
+	clear: both;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/***********PRESENTATION NAV*************************/
+
+#previous-next {
+	display: block;
+	position: relative;
+	margin: 40px auto;
+	padding: 0;
+}
+
+#previous-next li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+
+#previous-next .previous {
+	display: block;
+	float: left;
+}
+
+
+#previous-next .next {
+	float: right;
+}
+
+
+.previous {
+	display: table;
+	margin: 0 auto;
+}
+
+
+.next {
+	display: table;
+	margin: 0 auto;
+}
+
+
+
+.previous .arrow {
+	transform: translate(0, -120%);
+}
+
+
+.next .arrow {
+	transform: translate(45%, -120%);
 }
 
 
@@ -238,43 +387,17 @@ HOVER STYLES
 *********************************************************************************/
 
 nav a:hover {
-	color: #b3b8c9;
+	color: #551fff;
 }
 
-
+a:hover {
+	color: #5e6182;
+}
 /***********FOOTER LINKS*************************/
 
-.behance:hover .link {
-	visibility: hidden;
+.link:hover h5 {
+	color: #b3b8c9;
 }
-
-.behance:hover .arrow {
-	visibility: visible;
-}
-
-
-.linkedin:hover .link {
-	visibility: hidden;
-}
-
-.linkedin:hover .arrow {
-	visibility: visible;
-}
-
-
-
-/***********HEADER*************************/
-
-
-#logo:hover .rc-logo {
-	visibility: hidden;
-}
-
-#logo:hover .rc-logo_invert {
-	visibility: visible;
-}
-
-
 
 /***********PORTFOLIO*************************/
 
@@ -282,12 +405,6 @@ nav a:hover {
 #project-container:hover h3 {
 	color: #551fff;
 }
-
-
-
-
-
-
 
 
 
